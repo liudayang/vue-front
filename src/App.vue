@@ -2,6 +2,7 @@
   <ul>
     <li v-for="(user) in users" :key="user.id">
      <h3> {{user.id}}:{{user.name}}</h3>
+     <hr>
     </li>
   </ul>
 </template>
