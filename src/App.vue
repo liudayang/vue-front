@@ -28,6 +28,6 @@ export default {
 <style>
 li{
   border-radius: 10px;
-  border: 1px solid tomato;
+  border: 10px solid tomato;
 }
 </style>
