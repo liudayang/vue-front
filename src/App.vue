@@ -2,7 +2,7 @@
   <ul>
     <li v-for="(user) in users" :key="user.id">
      <h3> {{user.id}}:{{user.name}}</h3>
-     <hr>
+     <!-- <hr> -->
     </li>
   </ul>
 </template>
@@ -26,4 +26,8 @@ export default {
 </script>
 
 <style>
+li{
+  border-radius: 10px;
+  border: 1px solid tomato;
+}
 </style>
